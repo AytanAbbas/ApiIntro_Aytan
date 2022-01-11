@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "7b917826-0b78-448d-8ec0-7707eca39a2b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/api/Student/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"api",
+						"Student",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/api/Student",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"api",
+						"Student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StudentId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/api/Student/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"api",
+						"Student",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44315/api/Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"name\": \"Murad\",\r\n    \"surname\": \"Aliyev\",\r\n    \"age\": 15,\r\n    \"positinId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44315/api/Student",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"api",
+						"Student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44315/api/Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/api/Student",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"api",
+						"Student"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
